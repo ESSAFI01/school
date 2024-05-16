@@ -4,7 +4,7 @@ class Admins extends Controller
 {
     function index()
 	{
-		
+		$y=67;
 		if(!Auth::adminLoggedIn())
 		{
 			$this->redirect('login');
